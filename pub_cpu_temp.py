@@ -7,8 +7,8 @@ import local_weather
 
 t, h = r.read_sensor()
 
-api_key = "7928e8a0365293816970a373044ee894"
-location = "Bearsden,UK"
+api_key = "[Your Key]"
+location = "[Your City, Your Country]"
 
 def get_temp():
     temp = check_output(["vcgencmd","measure_temp"]).decode("UTF-8")
