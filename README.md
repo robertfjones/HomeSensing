@@ -13,7 +13,10 @@ This project is a home sensing arrangement using Raspberry PI's, sensors, MQTT a
 
 # Brief Instructions
 1. pub_cpu_temp.py to run on cron job every xx minutes. (Remove lines for services not used).
-2. toDb.py to run as a Daemon which shall auto start on boot. (Bash script mqttToDb.sh must be add to etc/init.d/ and run various commands).
+2. toDb.py to run as a Daemon which shall auto start on boot. (Bash script mqttToDb.sh must be add to etc/init.d/ and run various commands - see link in thanks).
 
 # Architecture
 ![Architecture](arch.jpg)
+
+# Thanks
+Some of the ideas here were taken from a blog by Lars - thanks Lars - here is the [link](https://thingsmatic.com/2016/06/18/daemonize-that-python-script/)
