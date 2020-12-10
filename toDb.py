@@ -59,7 +59,7 @@ def on_message(client, userdata, msg):
 
 
 # Set up client for MongoDB
-mongoClient=MongoClient('mongodb://pythonUser:autom8@localhost:27017/')
+mongoClient=MongoClient('mongodb://[User]:[Password]@localhost:27017/')
 try:
     client_info = mongoClient.server_info()
     logging.info("MongoDB Connected: {}".format(client_info))
