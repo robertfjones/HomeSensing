@@ -1,8 +1,8 @@
 import datetime
 import requests
 
-api_key = "7928e8a0365293816970a373044ee894"
-location = "Bearsden,UK"
+api_key = "[Your Key]"
+location = "[Your City ,Your Country]"
 
 def get_weather(api_key, location):
     url = "https://api.openweathermap.org/data/2.5/weather"
